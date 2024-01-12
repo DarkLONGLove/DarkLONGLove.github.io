@@ -1,0 +1,73 @@
+body{
+    background-color: wheat;
+    
+}
+.main1{
+    width: 360px;
+    height: 420px;
+    border-radius: 7%;
+    border: 10px solid rgb(28, 6, 6);
+    background-color: rgb(122, 36, 138);
+    margin: 200px auto;
+   
+}
+ /* 介绍游戏区 */
+ #Introduction{
+    width: 360px;
+    height: 420px;
+    border-radius: 7%;
+    border: 10px solid rgb(28, 6, 6);
+    background-color: rgb(104, 73, 171);
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    /* z-index: -1; */
+ }
+/* 游戏区 */
+.game{
+    width: 304px;
+    height: 304px;
+    border: 2px solid #000;
+    background-color: rgb(144, 80, 164);
+    margin: 20px auto;
+    position: relative;
+    
+}
+/*鱼*/
+#fish{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    font-size: 10px;
+}
+/* 猫 */
+#cat >div{
+    width: 10px;
+    height:  10px;
+    position: absolute;
+    font-size: 10px;
+    top: 10px;
+    left: 10px;
+}
+/* 分数区*/
+#info{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+/* 开始按钮 */
+#button{
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 260px;
+    margin: 0 auto;
+   /*  border: #000 solid 1px;*/
+} 
